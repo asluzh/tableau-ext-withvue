@@ -1,0 +1,26 @@
+{
+  "homepage": "https://asluzh.github.io/tableau-ext-withvue/",
+  "name": "tableau-ext-withvue",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -m 'Deployment with gh-pages'",
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@tableau/extensions-api-types": "^1.10.0",
+    "@tableau/tabextsandbox": "^1.10.0",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vue-tsc": "^1.8.27"
+  }
+}
